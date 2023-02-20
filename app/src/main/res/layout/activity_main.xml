@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="370dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="36dp"
+        android:gravity="center"
+        android:text="ТЕЛЕСКОП"
+        android:fontFamily="@font/intro"
+        android:textColor="#008ACA"
+        android:textSize="21sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/countOut"
+        android:layout_width="370dp"
+        android:layout_height="69dp"
+        android:layout_marginTop="4dp"
+        android:background="#43AFE5EA"
+        android:gravity="center"
+        android:hint=""
+        android:textColor="#CE232222"
+        android:textColorHint="#CE232222"
+        android:textSize="19sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.512"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="370dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:fontFamily="@font/intro"
+        android:text="НАКОПЛЕНИЯ:"
+        android:textColor="#008ACA"
+        android:textSize="21sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/countOut" />
+
+    <TextView
+        android:id="@+id/manyMonthOut"
+        android:layout_width="257dp"
+        android:layout_height="334dp"
+        android:layout_marginTop="8dp"
+        android:background="#00AFE5EA"
+        android:gravity="center|left"
+        android:hint=""
+        android:textColor="#CE191818"
+        android:textColorHint="#CE191818"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <TextView
+        android:id="@+id/JustCube"
+        android:layout_width="383dp"
+        android:layout_height="320dp"
+        android:layout_marginTop="8dp"
+        android:background="#43AFE5EA"
+        android:gravity="center|left"
+        android:hint=""
+        android:textColor="#CE232222"
+        android:textColorHint="#CE232222"
+        android:textSize="19sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
